@@ -12,3 +12,11 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+#Remove generated tls certificates :-)
+tls/*
+
+#Remove your database
+db/*
+
+.idea/*
